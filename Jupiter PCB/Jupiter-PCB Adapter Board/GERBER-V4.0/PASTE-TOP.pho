@@ -1,0 +1,92 @@
+*
+*
+G04 PADS 9.5 Build Number: 522968 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "Jupiter转接板-20210830-"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD011C,0.01*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name Jupiter转接板-20210830- - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name Jupiter转接板-20210830- - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name Jupiter转接板-20210830- - circuitry*
+%LPD*%
+*
+G54D10*
+G54D11*
+G01X1850394Y1862205D02*
+G75*
+G03X1862205Y1850394I11811J-0D01*
+G01X2074803*
+G03X2086614Y1862205I0J11811*
+G01Y2074803*
+G03X2074803Y2086614I-11811J0*
+G01X1862205*
+G03X1850394Y2074803I-0J-11811*
+G01Y1862205*
+X1877165Y2066929D02*
+G03X1877165I-7086J0D01*
+G01X2074016D02*
+G03X2074016I-7087J0D01*
+G01Y1870079D02*
+G03X2074016I-7087J0D01*
+G01X1877165D02*
+G03X1877165I-7086J0D01*
+G74*
+G01X0Y0D02*
+M02*
